@@ -7,21 +7,21 @@ GitHub does not support folders with a large number of files, so the data, pre-c
 
 A brief usage guide is given here, while a more detailed explanation may be found in http://arxiv.org/abs/1503.02554. Note that the following code assumes SnapPy is installed inside of SageMath. The Manifold class used in the code refers to SnapPy and not SageManifolds.
 
-# COMPUTATION OF EXACT N-LOOP INVARIANTS FROM MANIFOLD
+- COMPUTATION OF EXACT N-LOOP INVARIANTS FROM MANIFOLD
 
 attach('nloop_exact.py')
 all_diagrams = load('6diagrams.sobj')
 M = Manifold('6_2')
 nloop_from_manifold(M, 2, all_diagrams, engine="retrieve")
 
-# COMPUTATION OF EXACT N-LOOP INVARIANTS FROM PRECOMPUTED NZ-DATA
+- COMPUTATION OF EXACT N-LOOP INVARIANTS FROM PRECOMPUTED NZ-DATA
 
 attach('nloop_exact.py')
 all_diagrams = load('6diagrams.sobj')
 nz62 = load('nzdata/nz_exact_K5_19.sobj')
 nloop_from_nzdatum(nz62, 2, all_diagrams)
 
-# MANUAL COMPUTATION OF EXACT N-LOOP INVARIANTS FROM MANIFOLD
+- MANUAL COMPUTATION OF EXACT N-LOOP INVARIANTS FROM MANIFOLD
 
 attach('nloop_exact.py')
 all_diagrams = load('6diagrams.sobj')
@@ -32,7 +32,7 @@ E = nloop(D.nz, 2, all_diagrams)
 E.nloop_invariant()
 E.one_loop()
 
-# GENERATE EXACT NZ-DATA
+- GENERATE EXACT NZ-DATA
 
 attach('nloop_exact.py')
 M = Manifold('6_2')
