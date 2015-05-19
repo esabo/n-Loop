@@ -1,0 +1,49 @@
+# Manifold K3_2
+
+# Number Field
+x^3 + 2*x^2 + 3*x + 1 
+
+# Approximate Field Generator
+-0.784920145499027 - 1.30714127868205*I
+
+# Shape Parameters
+-y^2 - 2*y - 2
+
+-y^2 - 2*y - 2
+
+-y^2 - 2*y - 2
+
+
+# A Gluing Matrix
+{{0,-1,-1},{-1,0,-1},{-1,-1,0}}
+
+# B Gluing Matrix
+{{1,0,0},{0,1,0},{0,0,1}}
+
+# nu Gluing Vector
+{0, 0, 0}
+
+# f Combinatorial flattening
+{0, 0, 0}
+
+# f' Combinatorial flattening
+{0, 0, 0}
+
+# 1 Loop Invariant
+-3/2*y^2 - 3/2*y - 5/2
+
+# 2 Loop Invariant
+121/1058*y^2 + 209/2116*y + 379/4232
+
+# 3 Loop Invariant
+465/24334*y^2 + 465/12167*y + 492/12167
+
+# 4 Loop Invariant
+11023/308944464*y^2 + 2158417/1544722320*y + 954961/193090290
+
+# 5 Loop Invariant
+-1539461/1184287112*y^2 - 14383/6436343*y - 910621/296071778
+
+# 6 Loop Invariant
+-2949170939353/789374731632480*y^2 - 5217424367963/789374731632480*y - 776263588913/98671841454060
+
